@@ -1,0 +1,17 @@
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\MvcApplication7.dll
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\MvcApplication7.pdb
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\EntityFramework.dll
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\System.Data.SqlServerCe.dll
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\System.Data.SqlServerCe.Entity.dll
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\WebActivator.dll
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\EntityFramework.xml
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\WebActivator.pdb
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\ResolveAssemblyReference.cache
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\MvcApplication7.dll
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\MvcApplication7.pdb
+C:\code\trunk\MvcApplication7\MvcApplication7\bin\en-GB\MvcApplication7.resources.dll
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\MvcApplication7.Strings.resources
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\MvcApplication7.Strings.en-GB.resources
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\GenerateResource.read.1.tlog
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\GenerateResource.write.1.tlog
+C:\code\trunk\MvcApplication7\MvcApplication7\obj\Debug\en-GB\MvcApplication7.resources.dll

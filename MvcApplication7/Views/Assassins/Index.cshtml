@@ -1,0 +1,71 @@
+@model IEnumerable<MvcApplication7.Models.Assassin>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            FirstName
+        </th>
+        <th>
+            LastName
+        </th>
+        <th>
+            CodeName
+        </th>
+        <th>
+            PhoneNumber
+        </th>
+        <th>
+            EMailAddress
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            Height
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+        <td>
+			@item.FirstName
+        </td>
+        <td>
+			@item.LastName
+        </td>
+        <td>
+			@item.CodeName
+        </td>
+        <td>
+			@item.PhoneNumber
+        </td>
+        <td>
+			@item.EMailAddress
+        </td>
+        <td>
+			@item.Address
+        </td>
+        <td>
+			@item.Height
+        </td>
+    </tr>
+}
+
+</table>
+
+

@@ -1,0 +1,60 @@
+@model MvcApplication7.Models.Assassin
+
+@* This partial view defines form fields that will appear when creating and editing entities *@
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.FirstName)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.FirstName)
+    @Html.ValidationMessageFor(model => model.FirstName)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.LastName)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.LastName)
+    @Html.ValidationMessageFor(model => model.LastName)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.CodeName)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.CodeName)
+    @Html.ValidationMessageFor(model => model.CodeName)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.PhoneNumber)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.PhoneNumber)
+    @Html.ValidationMessageFor(model => model.PhoneNumber)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.EMailAddress)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.EMailAddress)
+    @Html.ValidationMessageFor(model => model.EMailAddress)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Address)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Address)
+    @Html.ValidationMessageFor(model => model.Address)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Height)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Height)
+    @Html.ValidationMessageFor(model => model.Height)
+</div>
+

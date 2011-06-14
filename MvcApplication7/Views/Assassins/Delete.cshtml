@@ -1,0 +1,41 @@
+@model MvcApplication7.Models.Assassin
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Assassin</legend>
+
+    <div class="display-label">FirstName</div>
+    <div class="display-field">@Model.FirstName</div>
+
+    <div class="display-label">LastName</div>
+    <div class="display-field">@Model.LastName</div>
+
+    <div class="display-label">CodeName</div>
+    <div class="display-field">@Model.CodeName</div>
+
+    <div class="display-label">PhoneNumber</div>
+    <div class="display-field">@Model.PhoneNumber</div>
+
+    <div class="display-label">EMailAddress</div>
+    <div class="display-field">@Model.EMailAddress</div>
+
+    <div class="display-label">Address</div>
+    <div class="display-field">@Model.Address</div>
+
+    <div class="display-label">Height</div>
+    <div class="display-field">@Model.Height</div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
+
+
